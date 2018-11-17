@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         number = number + 1
         label.text = String(number)
     }
+    
+    // ひく
+    @IBAction func minus(){
+        number = number - 1
+        label.text = String(number)
+    }
 
     @IBAction func dial(){
         number = number * 2
